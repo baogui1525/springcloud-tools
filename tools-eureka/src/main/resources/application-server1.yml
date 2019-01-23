@@ -1,0 +1,13 @@
+server:
+  port: 8000
+eureka:
+  client:
+    # 表示是否注册自身到eureka服务器
+    # register-with-eureka: false
+    # 是否从eureka上获取注册信息
+    # fetch-registry: false
+    service-url:
+#      defaultZone: http://127.0.0.1:8001/eureka/,http://127.0.0.1:8002/eureka/
+      defaultZone: http://127.0.0.1:8001/eureka/
+#  instance:
+#    hostname: server1
