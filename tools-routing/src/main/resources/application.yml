@@ -1,11 +1,9 @@
+server:
+  port: 8765
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
-#server:
-#  port: 8762
 spring:
   application:
-    name: eureka-client
-  profiles:
-    active: sever1
+    name: service-feign
